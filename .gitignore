@@ -1,9 +1,10 @@
 # ###### ###### ###### #
 # Visual Studio        #
 # ###### ###### ###### #
-
 .vs
 *.VC.*db
+*.sln
+*.suo
 
 
 # ###### ###### ###### #
@@ -16,7 +17,6 @@ cmake-build-debug/
 # ###### ###### ###### #
 # C / C++              #
 # ###### ###### ###### #
-
 *.slo
 *.lo
 *.o
@@ -41,14 +41,12 @@ cmake-build-debug/
 # ###### ###### ###### #
 # Fortran              #
 # ###### ###### ###### #
-
 *.mod
 
 
 # ###### ###### ###### #
 # Unreal Engine        #
 # ###### ###### ###### #
-
 # Not Ignored
 !Build/*/
 !Build/*/PakBlacklist*.txt
@@ -66,8 +64,7 @@ SourceArt/**/*.tga
 
 *.xcodeproj
 *.xcworkspace
-*.sln
-*.suo
+
 *.opensdf
 *.sdf
 *_BuiltData.uasset
